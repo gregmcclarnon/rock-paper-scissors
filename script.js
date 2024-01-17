@@ -66,5 +66,12 @@ function playRound() {
 
 };
 
-playRound()
+function game() {
+    playRound();
+    playRound();
+    playRound();
+    playRound();
+    playRound();
+}
 
+game();
