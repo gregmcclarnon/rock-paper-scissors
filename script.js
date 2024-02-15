@@ -1,13 +1,13 @@
-function playRound() {
+function playRound(playerSelection) {
     
     // User decides
 
-    // Asks for input
-    let playerSelection = prompt("Rock, Paper, or Scissors?");
+    // Asks for input. No longer needed as the parameter is the global variable
+    // let playerSelection = prompt("Rock, Paper, or Scissors?");
 
-    // Converts to lowercase
+    // Converts to lowercase. No longer needed
 
-    playerSelection = playerSelection.toLowerCase();
+    // playerSelection = playerSelection.toLowerCase();
 
     // Variable overide
     // playerSelection="Paper";
@@ -67,11 +67,11 @@ function playRound() {
 };
 
 function game() {
-    playRound();
-    playRound();
-    playRound();
-    playRound();
-    playRound();
+    // playRound();
+    // playRound();
+    // playRound();
+    // playRound();
+    // playRound();
 }
 
 game();
